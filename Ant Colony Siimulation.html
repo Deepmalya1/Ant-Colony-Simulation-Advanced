@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ant Colony Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="info">
+        <div id="antCount">No. of Ants: 0</div>
+        <div id="timePassed">Time Passed: 0s</div>
+    </div>
+    <div class="controls">
+        <button id="startButton">Start</button>
+        <button id="stopButton">Stop</button>
+        <button id="fastForwardButton">Fast Forward</button>
+        <button id="resetSpeedButton">Reset Speed</button>
+        <button id="increaseReproductionButton">Increase Reproduction</button>
+        <label>
+            <input type="checkbox" id="onlyPheromones"> ONLY PHEROMONES
+        </label>
+        <button id="finalResetButton">Final Reset</button>
+    </div>
+    <div class="canvas-container">
+        <canvas id="simulationCanvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
